@@ -25,7 +25,7 @@ async function getWeather() {
 
     try {
         const response = await fetch(
-            `https://weather-webapp-1f8e.onrender.com/weather/getWeather/${encodeURIComponent(city)}`
+                    `https://weather-webapp-1f8e.onrender.com/weather/getWeather/${encodeURIComponent(city)}`
         );
 
         if (!response.ok) {
